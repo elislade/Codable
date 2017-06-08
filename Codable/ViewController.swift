@@ -12,7 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        Post.list { posts in
+//            guard let posts = posts else { return }
+//            print(posts)
+//        }
+        
+        User.list { users in
+            guard let users = users else { return }
+            print(users)
+        }
     }
 
     override func didReceiveMemoryWarning() {
