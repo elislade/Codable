@@ -1,5 +1,5 @@
 //
-//  Struct.swift
+//  Structs.swift
 //  Codable
 //
 //  Created by Eli Slade on 2017-06-08.
